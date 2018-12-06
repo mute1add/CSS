@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('HelveticaNeue.ttf');
+}
+
+.grid-section-1{
+  margin-top: 6vw;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+body{
+}
+.grid-photo-section{
+  justify-content: center;
+  display: grid;
+}
+.grid-text-1 p {
+  width: 357px;
+  right: 103.9px;
+  top: 82px;
+  font-family: Helvetica Neue;
+  line-height: 21px;
+  font-size: 18px;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+.grid-text-1 h1{
+  width: 358px;
+  right: 127.9px;
+  top: 7px;
+
+  font-family: Helvetica Neue;
+  line-height: 32px;
+  font-size: 28px;
+
+  color: #000000;
+
+  opacity: 0.8;
+}
+.grid-text-1 {
+  display: grid;
+  /*grid-template-rows: 2vw 2vw;*/
+  grid-template-columns: 1fr 5fr;
+  justify-content: center;
+  align-items: center;
+}
